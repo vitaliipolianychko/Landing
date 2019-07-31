@@ -64,6 +64,7 @@ body {
 .main-header__call {
   padding-top: 30px;
   padding-left: 30px;
+
   button {
     background-color: transparent;
     padding: 10px 15px;
@@ -76,10 +77,12 @@ body {
     outline: none;
     cursor: pointer;
     text-transform: uppercase;
+
     &:hover {
       transition: 0.5s;
       background-color: rgba(2, 200, 100, 0.3);
     }
+
     i {
       padding-right: 10px;
     }
@@ -89,6 +92,7 @@ body {
 .main-header__logo {
   padding-top: 25px;
   padding-left: 30px;
+
   a {
     display: block;
   }
@@ -114,18 +118,22 @@ body {
   display: flex;
   align-items: center;
   cursor: pointer;
+
   a {
     color: #ffffff;
     text-decoration: none;
+
     &:hover {
       color: black;
       transition: 0.3s;
     }
   }
+
   &:hover {
     color: black;
     transition: 0.3s;
   }
+
   img {
     padding-right: 10px;
   }
@@ -138,23 +146,28 @@ body {
   display: none;
   margin-right: 15px;
   margin-top: 35px;
+
   label {
     display: none;
     color: #ffffff;
     font-size: 18px;
     margin-bottom: 10px;
     margin-left: auto;
+
     span {
       margin-right: 5px;
     }
+
     img {
       width: 20px;
       height: 20px;
     }
+
     &:hover {
       color: black;
     }
   }
+
   #toggle {
     display: none;
   }
@@ -163,6 +176,7 @@ body {
 .main-header__mobile__menu {
   width: 200px;
   z-index: 1;
+
   a {
     text-decoration: none;
     color: black;
@@ -172,6 +186,7 @@ body {
     font-size: 16px;
     font-weight: 500;
     padding: 5px;
+
     &:hover {
       background-color: lightgrey;
       color: black;
@@ -184,10 +199,12 @@ body {
   text-align: center;
   padding-top: 100px;
   padding-bottom: 70px;
+
   h1 {
     @extend %h1-title;
     color: #8ae2e2;
     margin: 0px;
+
     span {
       font-size: 56px;
       font-weight: 900;
@@ -196,15 +213,18 @@ body {
       text-align: center;
     }
   }
+
   p {
     font-size: 26px;
     padding: 0px 23%;
     color: #ebedeb;
     margin-bottom: 40px;
+
     span {
       color: #8ae2e2;
     }
   }
+
   button {
     @extend %btn-documents;
     background-color: #ff5151;
@@ -214,15 +234,18 @@ body {
 
 .part-team {
   background-color: #eff7f7;
+
   p {
     font-size: 18px;
     font-weight: 500;
     text-align: center;
     padding: 35px 0px;
     margin: 0;
+
     a {
       font-weight: 700;
       color: #8ae2e2;
+
       &:hover {
         transition: 0.5s;
         transform: scale(1.2);
@@ -236,6 +259,7 @@ body {
   max-width: 1440px;
   margin: 0 auto;
   padding: 100px 25px;
+
   h2 {
     @extend %h2-title;
     padding: 0;
@@ -251,14 +275,17 @@ body {
 .main-category__item {
   flex-basis: 25%;
   text-align: center;
+
   &:first-child {
     h3 {
       text-align: center;
     }
   }
+
   img {
     height: 125px;
   }
+
   h3 {
     margin: 0;
     font-size: 22px;
@@ -266,13 +293,16 @@ body {
     padding-top: 50px;
     height: 50px;
   }
+
   p {
     padding-right: 15px;
     margin: 0 auto;
+
     @media screen and (min-width: 1200px) and(max-width:1365px) {
       padding-top: 15px;
     }
-    @media screen and (min-width: 1366px) and(max-width:1439px) {
+
+    @media screen and (min-width: 1366px) and(max-width:1440px) {
       padding-top: 15px;
     }
   }
@@ -288,6 +318,7 @@ body {
   background-color: #66cfcf;
   background-size: 100% 100%;
   color: #ffffff;
+
   .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -298,6 +329,7 @@ body {
 
 .caregiver-title {
   flex-basis: 50%;
+
   h1 {
     font-size: 80px;
     font-weight: 900;
@@ -305,6 +337,7 @@ body {
     padding-left: 65px;
     padding-top: 150px;
   }
+
   button {
     @extend %btn-documents;
     background-color: transparent;
@@ -312,8 +345,10 @@ body {
     margin-left: 65px;
     margin-top: 70px;
   }
-  @media screen and (min-width: 1200px) and(max-width:1439px) {
+
+  @media screen and (min-width: 1200px) and(max-width:1440px) {
     flex-basis: 40%;
+
     h1 {
       font-size: 60px;
       padding-top: 250px;
@@ -326,7 +361,8 @@ body {
   display: flex;
   flex-direction: column;
   padding: 100px 0px;
-  @media screen and (min-width: 1200px) and(max-width:1439px) {
+
+  @media screen and (min-width: 1200px) and(max-width:1440px) {
     flex-basis: 60%;
   }
 }
@@ -335,12 +371,14 @@ body {
   display: flex;
   align-items: flex-start;
   position: relative;
+
   &:nth-child(n) {
     margin: 0;
     text-align: left;
     padding-bottom: 35px;
     padding-left: 20%;
   }
+
   &:nth-child(2n) {
     flex-direction: row-reverse;
     margin: 0;
@@ -348,6 +386,7 @@ body {
     padding-bottom: 0px;
     padding-right: 20%;
   }
+
   h4 {
     padding-top: 20px;
     margin: 0px;
@@ -364,9 +403,11 @@ body {
 
 .caregiver-choose__item__about {
   width: 200px;
+
   &:nth-child(n) {
     padding-left: 15px;
   }
+
   &:nth-child(2n) {
     padding-right: 15px;
   }
@@ -375,10 +416,12 @@ body {
 .caregiver-choose__item__about__right-arrow {
   position: absolute;
   right: 15px;
-  @media screen and (min-width: 1366px) and(max-width:1439px) {
+  padding-top: 30px;
+
+  @media screen and (min-width: 1366px) and(max-width:1440px) {
     right: 50px;
   }
-  padding-top: 30px;
+
   &::after {
     content: '';
     position: absolute;
@@ -392,10 +435,12 @@ body {
 .caregiver-choose__item__about__left-arrow {
   position: absolute;
   left: 15px;
-  @media screen and (min-width: 1366px) and(max-width:1439px) {
+  padding-top: 35px;
+
+  @media screen and (min-width: 1366px) and(max-width:1440px) {
     left: 50px;
   }
-  padding-top: 35px;
+
   &::before {
     content: '';
     position: absolute;
@@ -411,7 +456,7 @@ body {
   background-size: 100% 100%;
 }
 
-.container-hgroup {
+.review__h2 {
   @extend %h2-title;
   padding-bottom: 30px;
   padding: 0 45px;
@@ -441,6 +486,7 @@ body {
   position: relative;
   background-color: #eff7f7;
   padding: 40px 20px;
+
   &::after {
     content: '';
     position: absolute;
@@ -458,6 +504,7 @@ body {
   align-items: center;
   text-align: right;
   padding-top: 10px;
+
   span {
     padding-right: 10px;
   }
@@ -485,9 +532,11 @@ body {
   padding: 160px 130px;
   color: #ffffff;
   flex-basis: 50%;
+
   p {
     margin-top: 0px;
     padding-bottom: 20px;
+
     &::before {
       border-top: 1px solid #1072b8;
       display: block;
@@ -510,6 +559,7 @@ body {
     @extend %btn-documents;
     background-color: transparent;
   }
+
   h1 {
     @extend %h1-title;
     margin: 0px;
@@ -526,17 +576,20 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 50px 0;
+
   h2 {
     @extend %h2-title;
     padding: 0px;
     color: #0b2a37;
   }
+
   p {
     margin: 0px;
     font-size: 18px;
     font-weight: 500;
     color: #0b2a37;
   }
+
   button {
     margin-top: 40px;
     font-size: 16px;
@@ -548,6 +601,7 @@ body {
     outline: none;
     cursor: pointer;
     border: 0;
+
     &:hover {
       opacity: 0.8;
       transition: 0.5s;
@@ -572,15 +626,18 @@ body {
   padding-left: 100px;
   padding-top: 80px;
   padding-bottom: 50px;
+
   p {
     font-size: 14px;
     font-weight: 400;
     color: #9ba7ad;
   }
+
   img {
     width: 222px;
     height: 51px;
   }
+
   a {
     display: block;
     width: 225px;
@@ -597,17 +654,21 @@ body {
 .footer-content__about__item {
   flex-basis: 33.33%;
   padding-right: 15px;
+
   h4 {
     @extend %h4-title;
     padding-bottom: 30px;
+
     a {
       color: #ffffff;
       text-decoration: none;
     }
   }
+
   p {
     @extend %p-title;
     margin: 0px;
+
     a {
       color: #9ba7ad;
       text-decoration: none;
@@ -619,18 +680,22 @@ body {
   padding-top: 30px;
   display: flex;
   align-self: flex-start;
+
   h4 {
     @extend %h4-title;
   }
+
   img {
     width: 30px;
     height: 30px;
+
     &:hover {
       cursor: pointer;
       transform: scale(1.2);
       transition: 0.5s;
     }
   }
+
   a {
     margin-left: 10px;
     width: 30px;
@@ -644,9 +709,23 @@ body {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1441px) {
+  .header {
+    height: 80vh;
+    position: relative;
+  }
+
+  .find-guardian {
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+
   .photo {
-    height: 800px;
+    height: 70vh;
   }
 }
 
@@ -654,6 +733,7 @@ body {
   .find-guardian {
     h1 {
       font-size: 56px;
+
       span {
         font-size: 40px;
       }
@@ -672,11 +752,12 @@ body {
 
   .caregiver-title {
     flex-basis: 50%;
+
     h1 {
       font-size: 56px;
-
       text-align: center;
     }
+
     button {
       margin-left: 30%;
     }
@@ -693,6 +774,7 @@ body {
     &:nth-child(n) {
       padding-bottom: 0px;
     }
+
     &:nth-child(2n) {
       flex-direction: row;
       padding-right: 0px;
@@ -719,12 +801,14 @@ body {
 
   .information__additional__title {
     background: url(../img/logo-shape.png) left 170% no-repeat;
+
     h1 {
       font-size: 56px;
       font-weight: 700;
       text-align: center;
       padding-top: 150px;
     }
+
     button {
       margin-left: 20%;
     }
@@ -735,7 +819,7 @@ body {
   .main-header__logo {
     img {
       padding-top: 5px;
-      width: 200px;
+      width: 150px;
     }
   }
 
@@ -756,11 +840,13 @@ body {
   .main-header__mobile {
     display: flex;
     flex-direction: column;
+
     label {
       display: flex;
       align-items: flex-end;
       cursor: pointer;
     }
+
     #toggle:checked + .main-header__mobile__menu {
       display: flex;
       flex-direction: column;
@@ -770,6 +856,7 @@ body {
   .main-header__mobile__menu {
     text-align: center;
     display: none;
+
     a {
       display: block;
     }
@@ -778,19 +865,23 @@ body {
   .find-guardian {
     text-align: center;
     padding-top: 80px;
+
     h1 {
       font-size: 40px;
       text-align: center;
       padding-bottom: 25px;
+
       span {
         font-size: 28px;
         font-weight: 700;
         padding-bottom: 50px;
       }
     }
+
     p {
       display: none;
     }
+
     button {
       font-size: 14px;
       padding: 15px 15px;
@@ -801,6 +892,7 @@ body {
   .category {
     padding-top: 50px;
     padding-bottom: 50px;
+
     h2 {
       padding-top: 20px;
       padding-bottom: 30px;
@@ -816,10 +908,7 @@ body {
   .main-category__item {
     text-align: center;
     padding: 0px 50px;
-    img {
-      width: 100px;
-      height: 100px;
-    }
+
     h3 {
       font-size: 22px;
       font-weight: 700;
@@ -827,6 +916,7 @@ body {
       padding-top: 30px;
       height: 50px;
     }
+
     p {
       padding: 10px 75px;
       padding-bottom: 20px;
@@ -850,6 +940,7 @@ body {
     flex-basis: 100%;
     align-items: center;
     text-align: center;
+
     h1 {
       font-size: 40px;
       font-weight: 900;
@@ -859,6 +950,7 @@ body {
       padding-right: 10px;
       padding-top: 80px;
     }
+
     button {
       background-color: transparent;
       border: 2px solid #ffffff;
@@ -880,18 +972,22 @@ body {
     padding-left: 0px;
     align-items: flex-start;
     padding-top: 0px;
+
     &:nth-child(n) {
       padding-left: 0%;
     }
+
     &:nth-child(2n) {
       padding-right: 0%;
     }
+
     h4 {
       padding: 0px;
       padding-top: 15px;
       padding-bottom: 0px;
       font-size: 22px;
     }
+
     p {
       text-align: right;
     }
@@ -916,12 +1012,13 @@ body {
   .review-clients__item {
     flex-basis: 45%;
     margin-top: 50px;
+
     img {
       padding-top: 10px;
     }
   }
 
-  .container-hgroup {
+  .review__h2 {
     font-size: 36px;
   }
 
@@ -941,6 +1038,7 @@ body {
     padding: 50px 50px;
     color: #ffffff;
     flex-basis: 100%;
+
     p {
       padding-top: 15px;
     }
@@ -961,6 +1059,7 @@ body {
     h1 {
       padding-top: 50px;
     }
+
     button {
       margin: 0;
     }
@@ -970,9 +1069,11 @@ body {
     h2 {
       font-size: 32px;
     }
+
     p {
       padding-top: 20px;
     }
+
     button {
       font-size: 14px;
     }
@@ -986,6 +1087,7 @@ body {
     padding-left: 30px;
     padding-top: 30px;
     padding-bottom: 10px;
+
     img {
       width: 200px;
     }
@@ -997,13 +1099,16 @@ body {
 
   .footer-content__title__icon {
     padding-top: 20px;
+
     h4 {
       font-size: 18px;
     }
+
     img {
       width: 20px;
       height: 20px;
     }
+
     a {
       width: 20px;
       height: 20px;
@@ -1012,15 +1117,22 @@ body {
 }
 
 @media all and (min-width: 800px) and(max-width: 1023px) {
+  .main-header__logo {
+    img {
+      padding-top: 15px;
+      width: 150px;
+    }
+  }
+
   .main-header__call {
     display: flex;
-    flex-direction: column;
     margin-top: 10px;
+
     button {
       margin-bottom: 10px;
       padding: 5px 5px;
-      font-size: 12px;
-      margin-right: 0px;
+      font-size: 14px;
+      margin-right: 10px;
     }
   }
 
@@ -1032,6 +1144,7 @@ body {
     p {
       display: none;
     }
+
     button {
       margin-top: 30px;
     }
@@ -1051,6 +1164,7 @@ body {
   .main-category__item {
     flex-basis: 40%;
     padding: 0 20px;
+
     p {
       padding-top: 30px;
       padding-bottom: 30px;
@@ -1061,6 +1175,7 @@ body {
     h1 {
       font-size: 48px;
     }
+
     button {
       padding: 20px 20px;
     }
@@ -1072,10 +1187,12 @@ body {
     padding-right: 0px;
     text-align: center;
   }
+
   .caregiver-choose__item {
     h4 {
       font-size: 20px;
     }
+
     p {
       font-size: 14px;
     }
@@ -1088,6 +1205,7 @@ body {
   .information__additional__title {
     padding-top: 0px;
     background: url(../img/logo-shape.png) left 140% no-repeat;
+
     h1 {
       padding-top: 200px;
     }
@@ -1104,6 +1222,7 @@ body {
     flex-basis: 60%;
     padding-top: 40px;
     padding-bottom: 30px;
+
     h4 {
       font-size: 14px;
     }
@@ -1134,7 +1253,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1365px) and (max-width: 1439px) {
+@media screen and (min-width: 1365px) and (max-width: 1440px) {
   .information__additional__about {
     padding-bottom: 50px;
   }
